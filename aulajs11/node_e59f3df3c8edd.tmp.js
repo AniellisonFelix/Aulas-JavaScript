@@ -4,4 +4,3 @@ if (pais == 'Brasil') {
 } else {
 	console.log('Você é estrangeiro!');
 }
-
