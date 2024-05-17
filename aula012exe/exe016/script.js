@@ -3,8 +3,8 @@ function contar() {
 	let fim = document.getElementById('txtf')
 	let passo = document.getElementById('txtp')
 	let res = document.getElementById('res')
-
-	if (ini.value.length == 0 || fim.value.length == 0 || passo.Value.length == 0) {
+	//console.log(ini.value, fim, passo, res);
+	if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
 		res.innerHTML = 'Impossivel contar'
 		//window.alert('[ERRO] Faltam dados!')
 	} else {
